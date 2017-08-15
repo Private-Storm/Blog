@@ -13,7 +13,7 @@ Some of the sources using the Graphics32 and PNG Librarys which where not availa
 <h3>Sources</h3>
 
 * WLM Password (Recover your forgotten Windows Live Messenger passwords)
-* Save TerminateProcess (Save way of terminating processes)
+* Safe TerminateProcess (Safe way of terminating processes)
 * Windows Notification Package (Display messages inside of the logon screen)
 * Windows Search API (Indexing files & folders with windows search api from Delphi)
 * Windows Update Agent API
