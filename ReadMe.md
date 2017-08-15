@@ -8,6 +8,8 @@ Source codes of my blog articles <a href="http://private-storm.de">private-storm
 * <a href="https://sourceforge.net/projects/jedi-apilib/files/">JWSCL</a>
 * <a href="https://sourceforge.net/projects/jedi-apilib/files/">JWAPI</a>
 
+Some of the sources using the Graphics32 and PNG Librarys which where not available per default in Delphi at the time I've wrote the demos. So its your part rewriting this code.
+
 <h3>Sources</h3>
 
 * WLM Password (Recover your forgotten Windows Live Messenger passwords)
