@@ -17,6 +17,7 @@ Some of the sources using the Graphics32 and PNG Librarys which where not availa
 * Windows Notification Package (Display messages inside of the logon screen)
 * Windows Search API (Indexing files & folders with windows search api from Delphi)
 * Windows Update Agent API
+* Application Restart and Recovery Api (Simple demo how it could be used, translation of the Api headers can be found in JwaAppRecovery.pas)
 
 more to come...
 
