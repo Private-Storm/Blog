@@ -20,5 +20,6 @@ more to come...
 
 <h3>Screenshots</h3>
 
-<!-- ![bceditor0](https://cloud.githubusercontent.com/assets/11475177/20067778/2e403442-a51f-11e6-8c3e-532ae48b7d72.png)
--->
+Windows Notification Package with JWSCL Logo in logon screen on Windows XP
+
+![Notification Package](http://private-storm.de/wp-content/uploads/2011/03/Winlogon.jpg)
