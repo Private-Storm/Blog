@@ -16,12 +16,21 @@ You've choosen for example:
 and generated the Object Identifier, which will be shown in a label below the filename.
 
 * Now cut out the Test.exe from the above example path and place it e.g. here:
+<<<<<<< HEAD
 
       D:\Test\Blubb\Test.exe
+=======
+    
+        D:\test.exe
+>>>>>>> b1e92defb67f64755e636a8d54c66a1a501343d0
 
 * Time for pressing the <b>Open file by Guid button</b> if everything works correctly you will see that
 inside the memo a line will be added (thats the magic, even while the file moved to another place.)
 
 <h3>Important</h3>
 
+<<<<<<< HEAD
 > The only exception to this is, the file must stay on the same partionen from what I've tested.
+=======
+> The only exception to this is, the file must stay on the same partionen from what I've tested.
+>>>>>>> b1e92defb67f64755e636a8d54c66a1a501343d0
