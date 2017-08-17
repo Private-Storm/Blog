@@ -86,6 +86,8 @@ Hab das gerade nochmal getestet, der Editor hat weiterhin den Bug, bei der Einga
 
 Mit obigen Zeilen habe ich den Editor gefüllt, wenn man jetzt kompiliert, springt der Editor zur letzten Zeile sprich // Hack .... usw. wird angezeigt, der obere Teile ist aus dem sichtbaren Bereich verschwunden, die vertikale Scrollbar steht aber ganz oben.
 
+Teilweise erscheinen im Editor auch chinesichse Zeichen, ist mir zwei mal passiert jetzt, ich versuche das mal zu provozieren um zu ermitteln was das genau auftritt. (Ansi / Unicode Problem?)
+
 Screenshot
 
 
