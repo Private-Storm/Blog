@@ -123,3 +123,5 @@ Sagen wir mal so wie im zweiten Screenshot z.B. Skel.Breakpoints da hat Skel ein
 sprich Skel kann zwei verschiedene Farbwerte annehmen... So etwas gibt es auch bei den Editoren die ich so benutze deshalb auch die Frage, weil so wie ich das sehe geht es so mit deinem Editor nicht?!
 
 ![Ziel](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Ziel.png)
+
+Ich denke das sollte jetzt erst mal reichen, was die Fehler angeht, ist wohl mehr als genug fürs erste.
