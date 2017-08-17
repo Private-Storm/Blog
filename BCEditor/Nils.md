@@ -30,3 +30,7 @@ Zeile 5357
 Das ganze geht noch weiter wenn zuvor im Objekt Inspector WordWrap auf True gesetzt wurde passiert folgendes:
 
 Access violation 0x000000000
+
+> Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
+
+Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kann.
