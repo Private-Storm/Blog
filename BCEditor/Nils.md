@@ -63,4 +63,4 @@ Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kan
 
 Screenshot Line Numbers
 
-![Line_Number_Bug]()
+![Line_Number_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Editor_LinesNr_Bug.PNG)
