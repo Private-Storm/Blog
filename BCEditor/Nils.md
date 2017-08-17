@@ -27,9 +27,15 @@ Dies ergibt dann folgendes:
 Exception ERangeError Line 446 is not visible TCustomBCEditor.LinesToRows.....
 Zeile 5357
 
+Der Fehler tritt auf, wenn man den Highlighter z.B. auf Delphi stehen hat, man aber eine CSS Datei lädt. Das sollte nicht passieren. Eventuell müsste man hier prüfen zwischen Dateiendung und ausgewähltem Parser, wenn der Parser hier das Problem ist. Eventuell kann man den Text dann ungeparsed lassen, bis der richtige Parser ausgewählt wurde vom Benutzer.
+
+Bei Sublime Text ist das folgendermassen, wenn ich eine neue Datei im Editor erstelle ist die erstmal komplett ohne Highlighting, wenn ich die Datei speichere z.B. als Neu.CSS dann wird die Datei sofort danach im Editor mit dem CSS Highlighter geparsed. Oder ich kann auch den Highlighter manuell setzen, wobei es hier egal ist welchen ich wähle, sollte er nicht passen wird eben kein highlighting angewand oder nur partiell für die Bereiche wo es zufällig passen würde. Ist mir aber selber ein Rätsel wie das gelöst wurde.
+
 Das ganze geht noch weiter wenn zuvor im Objekt Inspector WordWrap auf True gesetzt wurde passiert folgendes:
 
 Access violation 0x000000000
+
+* Codefolding nicht mehr existent? Zumindest kann es im OI und auch meiner Meinung nach sonst nirgends aktiviert werden. Es wird auch im Editor keins angezeigt.
 
 > Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
 
