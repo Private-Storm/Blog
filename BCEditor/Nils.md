@@ -87,6 +87,8 @@ Hab das gerade nochmal getestet, der Editor hat weiterhin den Bug, bei der Einga
 Mit obigen Zeilen habe ich den Editor gefüllt, wenn man jetzt kompiliert, springt der Editor zur letzten Zeile sprich // Hack .... usw. wird angezeigt, der obere Teile ist aus dem sichtbaren Bereich verschwunden, die vertikale Scrollbar steht aber ganz oben.
 
 Screenshot
+
+
 ![Scrollbar_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Scrollbar_Bug.PNG)
 
 
