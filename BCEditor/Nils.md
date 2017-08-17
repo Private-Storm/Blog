@@ -37,6 +37,8 @@ Access violation 0x000000000
 
 * Codefolding nicht mehr existent? Zumindest kann es im OI und auch meiner Meinung nach sonst nirgends aktiviert werden. Es wird auch im Editor keins angezeigt.
 
+Erledigt! Habs endlich gefunden ;)
+
 * LineNumbers
 Diese werden nicht korrekt wiedergegeben. Meine CSS Datei enthält über 400 Zeilen, im Editor werden die Linenumbers bis 30 dargestellt nicht mehr. Der Text ist aber komplett vorhanden.
 
