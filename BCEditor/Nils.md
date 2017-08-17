@@ -55,6 +55,39 @@ Editor auf Javascript highlighter stellen folgende Eingabe:
 Zwischen der geöffneten und geschlossenen geschweiften Klammer return drücken, ergibt:
 ERangeError Meldung Line 1 is not visible Exception BCEditor.pas Zeile: 5357
 
+Hab das gerade nochmal getestet, der Editor hat weiterhin den Bug, bei der Eingabe, wenn man an bestimmten Stellen return drückt knallt es.
+
+* Dann gibt es noch einen Bug was das Scrolling des Editors betrifft:
+
+                editor.Lines.Add('');
+                editor.Lines.Add('(function($) {');
+                editor.Lines.Add('');
+                editor.Lines.Add('       // skeleton breakpoints. ');
+                editor.Lines.Add('');
+                editor.Lines.Add('       skel.breakpoints({');
+                editor.Lines.Add('           xLarge: ''' + '(max-width: 1680px)'  + ''',');
+                editor.Lines.Add('           Large: '''  + '(max-width: 1280px)'  + ''',');
+                editor.Lines.Add('           Medium: ''' + '(max-width: 980px)'   + ''',');
+                editor.Lines.Add('           Small: '''  + '(max-width: 736px)'   + ''',');
+                editor.Lines.Add('           xSmall: ''' + '(max-width: 480px)'   + '''');
+                editor.Lines.Add('        });');
+                editor.Lines.Add('');
+                editor.Lines.Add('        $(function() {');
+                editor.Lines.Add('');
+                editor.Lines.Add('');
+                editor.Lines.Add('               var $Windows = $(window),');
+                editor.Lines.Add('                   $body = $(''body''),');
+                editor.Lines.Add('                   $sidebar = $(''#sidebar'')');
+                editor.Lines.Add('');
+                editor.Lines.Add('');
+                editor.Lines.Add('       // Hack: Enable IE flexbox workaround.');
+                editor.Lines.Add('');
+                editor.Lines.Add('       if (skel.vars.IEVersion < 12)');
+
+Mit obigen Zeilen habe ich den Editor gefüllt, wenn man jetzt kompiliert, springt der Editor zur letzten Zeile sprich // Hack .... usw. wird angezeigt, der obere Teile ist aus dem sichtbaren Bereich verschwunden, die vertikale Scrollbar steht aber ganz oben.
+
+Screenshot
+![Scrollbar_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Scrollbar_Bug.PNG)
 
 
 > Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
