@@ -69,3 +69,14 @@ Woher kommt eigentlich diese Orange Linie da, im LeftMargin oder anders wie heis
 
 
 ![Line_Number_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Editor_LinesNr_Bug.PNG)
+
+Jetzt hab ich abschliessend noch eine Frage, ich hänge noch einen Sceenshot an was die Flexibilität anderer Editoren betrifft, was speziel den Highlighter betrifft.
+Ich habe ehrlich gesagt, dass noch nicht ganz begriffen wie das Funktioniert oder anders, wie man den Highlighter und speziel dazu die Farben erweitern kann oder geht das überhaupt?
+
+Sagen wir mal so wie im zweiten Screenshot z.B. Skel.Breakpoints da hat Skel eine andere Farbe wie folgendes:
+
+          Skel.vars.IEVersion
+
+sprich Skel kann zwei verschiedene Farbwerte annehmen... So etwas gibt es auch bei den Editoren die ich so benutze deshalb auch die Frage, weil so wie ich das sehe geht es so mit deinem Editor nicht?!
+
+![Highlighting](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Ziel.PNG)
