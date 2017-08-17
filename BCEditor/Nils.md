@@ -26,3 +26,7 @@ Dies ergibt dann folgendes:
 
 Exception ERangeError Line 446 is not visible TCustomBCEditor.LinesToRows.....
 Zeile 5357
+
+Das ganze geht noch weiter wenn zuvor im Objekt Inspector WordWrap auf True gesetzt wurde passiert folgendes:
+
+Access violation 0x000000000
