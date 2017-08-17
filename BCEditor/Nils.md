@@ -62,5 +62,6 @@ ERangeError Meldung Line 1 is not visible Exception BCEditor.pas Zeile: 5357
 Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kann.
 
 Screenshot Line Numbers
+Was da genau passiert weiß ich nicht nur zu lesen, sind diese echt schwer.
 
 ![Line_Number_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Editor_LinesNr_Bug.PNG)
