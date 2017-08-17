@@ -37,6 +37,26 @@ Access violation 0x000000000
 
 * Codefolding nicht mehr existent? Zumindest kann es im OI und auch meiner Meinung nach sonst nirgends aktiviert werden. Es wird auch im Editor keins angezeigt.
 
+* LineNumbers
+Diese werden nicht korrekt wiedergegeben. Meine CSS Datei enthält über 400 Zeilen, im Editor werden die Linenumbers bis 30 dargestellt nicht mehr. Der Text ist aber komplett vorhanden.
+
+* Löschen und Einfügen von einem bestehenden Text im Editor
+Dies führt zu:
+
+Assertion fehlgeschlagen Zeile 6838 BcEditor.pas
+
+* Editor leer Texteingabe
+Editor auf Javascript highlighter stellen folgende Eingabe:
+
+          $(function)() {
+
+          }
+
+Zwischen der geöffneten und geschlossenen geschweiften Klammer return drücken, ergibt:
+ERangeError Meldung Line 1 is not visible Exception BCEditor.pas Zeile: 5357
+
+
+
 > Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
 
 Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kann.
