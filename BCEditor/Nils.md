@@ -46,8 +46,8 @@ Dies führt zu:
 
 Assertion fehlgeschlagen Zeile 6838 BcEditor.pas
 
-* Editor leer Texteingabe
-Editor auf Javascript highlighter stellen folgende Eingabe:
+* Editor leer es erfolgt eine Texteingabe wie im nachfolgendem Beispiel:
+Editor auf Javascript Highlighter stellen folgende Eingabe:
 
           $(function)() {
 
