@@ -35,15 +35,10 @@ Das ganze geht noch weiter wenn zuvor im Objekt Inspector WordWrap auf True gese
 
 Access violation 0x000000000
 
-* Codefolding nicht mehr existent? Zumindest kann es im OI und auch meiner Meinung nach sonst nirgends aktiviert werden. Es wird auch im Editor keins angezeigt.
-
-Erledigt! Habs endlich gefunden ;)
-Aber direkt auch den nächsten reproduzierbaren Fehler.
-
-* CodeFolding, klick mal bitte mehrfacht auf die Plus / MinuSymbole also Code ein und ausklappen.
+* CodeFolding, klick mal bitte mehrfach auf die Plus / Minus Symbole also Code ein und ausklappen.
 Irgendwann ist der Code nicht mehr vorhanden also unsichtbar, der wird aber dann auch nicht mehr sichtbar, egal ob man aus oder einklappt.
 
-* LineNumbers
+* Line Numbers
 Diese werden nicht korrekt wiedergegeben. Meine CSS Datei enthält über 400 Zeilen, im Editor werden die Linenumbers bis 30 dargestellt nicht mehr. Der Text ist aber komplett vorhanden.
 
 * Löschen und Einfügen von einem bestehenden Text im Editor
@@ -90,7 +85,7 @@ Hab das gerade nochmal getestet, der Editor hat weiterhin den Bug, bei der Einga
                 editor.Lines.Add('');
                 editor.Lines.Add('       if (skel.vars.IEVersion < 12)');
 
-Mit obigen Zeilen habe ich den Editor gefüllt, wenn man jetzt kompiliert, springt der Editor zur letzten Zeile sprich // Hack .... usw. wird angezeigt, der obere Teile ist aus dem sichtbaren Bereich verschwunden, die vertikale Scrollbar steht aber ganz oben.
+Mit obigen Zeilen habe ich den Editor gefüllt, wenn man jetzt kompiliert, springt der Editor zur letzten Zeile sprich // Hack: Enabled .... usw. wird angezeigt, der obere Teile ist aus dem sichtbaren Bereich verschwunden, die vertikale Scrollbar steht aber ganz oben.
 
 Teilweise erscheinen im Editor auch chinesichse Zeichen, ist mir zwei mal passiert jetzt, ich versuche das mal zu provozieren um zu ermitteln was das genau auftritt. (Ansi / Unicode Problem?)
 
