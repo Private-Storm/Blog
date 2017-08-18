@@ -95,10 +95,6 @@ Screenshot
 ![Scrollbar_Bug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Scrollbar_Bug.PNG)
 
 
-> Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
-
-Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kann.
-
 Screenshot Line Numbers
 
 Was da genau passiert weiß ich nicht nur zu lesen, sind diese echt schwer.
@@ -118,5 +114,9 @@ Sagen wir mal so wie im zweiten Screenshot z.B. Skel.Breakpoints da hat Skel ein
 sprich Skel kann zwei verschiedene Farbwerte annehmen... So etwas gibt es auch bei den Editoren die ich so benutze deshalb auch die Frage, weil so wie ich das sehe geht es so mit deinem Editor nicht?!
 
 ![Ziel](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Ziel.png)
+
+> Folgender Vorschlag, implementiere mal nichts neues im Moment. Wenn Du Zeit hast versuche mal obiges nach und nach zu fixen. Ich kann Dir vorschlagen, mit Dir zusammen dann mal alles was bis jetzt enthalten ist (sämtliche Eigenschaften und die Colors sowie Highlighter.jsons komplett zu prüfen, ob wirklich unter allen Umständen alles auch verarbeitet wird so wie es soll. Wenn dem so ist erst dann würde ich weiteres implementieren.) Im Moment sieht es nach einem Kampf gegen Windmühlen aus. Sobald irgendwas geändert wird, knallt es an einer anderen Stelle, so ist zumindest gerade mein Eindruck, dass sollten wir erst mal in den Griff bekommen.
+
+Ich bastel wenn ich kann mir mal eine Demo zusammen, mit der ich dann testen kann.
 
 Ich denke das sollte jetzt erst mal reichen, was die Fehler angeht, ist wohl mehr als genug fürs erste.
