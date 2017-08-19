@@ -9,6 +9,17 @@ Soll heissen, der Editor verarbeitet diese einmalig beim ersten laden einer Colo
 Beispiel: Monokai.json Fontgröße auf 12, 12 ändern, Fontname auf bei mir Inconsolata geändert.
 Beispielanwendung kompilieren, diese läd standartmässig die Default.json mit den Einstellungen 9, 8 als Größe sowie Courier New als Fontnamen. Wird korrekt verarbeitet vom Editor. Wenn man jetzt auf die geänderte Monokai.json umstellt bleibt die Fontgröße bei 9,8 sowie Courier New anstelle von 12,12 Inconsolata. Was hier noch ganz nett wäre wenn man die Font Style noch einstellen könnte, z.B. auf Bold = True
 
+Dazu gibt es noch zwei weitere Probleme:
+Wenn man die Fontgröße in der Jason auf über 12 stellt wird im Editor die LeftMargin falsch gezeichnet es entstehen komische dunkle Blöcke.
+
+Das nächste Problem ist, wie soll man, wenn man die Fontgröße in der Json definiert hat zur Laufzeit die Editor Fontgröße setzen? Denn:
+
+    Editor.Font.Size := Value
+    
+Hat keinen Einfluss darauf bzw. wird dies ignoriert oder vom Editor nicht verarbeitet.
+Es hat den Anschein, dass die Einstellungen nur über die Json funktioniert aber die Einstellungen die man z.B. im Object Inspector macht ignoriert oder überschrieben werrden.
+Sollte eigentlich nicht sein oder?
+
 * CompletionProposal
 Diese scheint komplett im Eimer zu sein im Moment. Wenn man STRG+Space betätitigt ergibt das:
 EAsertionFailed BCEditor.pas Zeile 6838  Assert(not (ecProcessingCommand in FState))
