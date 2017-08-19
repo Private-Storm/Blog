@@ -20,6 +20,10 @@ Hat keinen Einfluss darauf bzw. wird dies ignoriert oder vom Editor nicht verarb
 Es hat den Anschein, dass die Einstellungen nur über die Json funktioniert aber die Einstellungen die man z.B. im Object Inspector macht ignoriert oder überschrieben werrden.
 Sollte eigentlich nicht sein oder?
 
+Hier mal ein Screenshot der zeigt, was passiert wenn man die Schriftgröße (hier mal 12px) einstellt, man beachte die schwarzen Streifen am linken Rand des Editors die sich bis unten hin durchziehen, je größer die Schriftgröße je größer die schwarzen Blöcke.
+
+![FehlerRand](https://github.com/Private-Storm/Blog/blob/master/BCEditor/LeftMargin.png)
+
 * CompletionProposal
 Diese scheint komplett im Eimer zu sein im Moment. Wenn man STRG+Space betätitigt ergibt das:
 EAsertionFailed BCEditor.pas Zeile 6838  Assert(not (ecProcessingCommand in FState))
