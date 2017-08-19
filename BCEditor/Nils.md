@@ -22,7 +22,7 @@ Sollte eigentlich nicht sein oder?
 
 Hier mal ein Screenshot der zeigt, was passiert wenn man die Schriftgröße (hier mal 12px) einstellt, man beachte die schwarzen Streifen am linken Rand des Editors die sich bis unten hin durchziehen, je größer die Schriftgröße je größer die schwarzen Blöcke.
 
-![FehlerRand](https://github.com/Private-Storm/Blog/blob/master/BCEditor/LeftMargin.png)
+![FehlerRand](https://github.com/Private-Storm/Blog/blob/master/BCEditor/LeftMargin.PNG)
 
 * CompletionProposal
 Diese scheint komplett im Eimer zu sein im Moment. Wenn man STRG+Space betätitigt ergibt das:
