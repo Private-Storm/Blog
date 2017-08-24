@@ -101,7 +101,7 @@ ist alles gut, aber sobald man zwischen die zwei geschweiften Klammern den Curso
 
 </br>
 
-Meine Hauptvermutung ist, dass es am Highlighter liegt, bzw. dem passen des Textes. Denn wenn es knall dann hauptsächlich im Highlighter. Ich glaube das ist ein grundlegender Fehler im Design? Hier müsste man ggf. dafür sorgen das der Highlighter wenn es beim parken zu einem Fehler kommt der dies intern ohne Exception verarbeitet (quasi schluckt...) Denn es macht zumindest für mich keinen Sinn, dass der Parser Exceptions schmeisst, weil man den falschen Highlighter benutzt oder der Code nicht dem Highlighter entspricht? Nur so ein Gedanke, aber Sublime ist das auch egal, wenn der Code nicht einem Highlighter entspricht wird der Text ungerades ohne Highlighting dargestellt.
+Meine Hauptvermutung ist, dass es am Highlighter liegt, bzw. dem parsen des Textes. Denn wenn es knall dann hauptsächlich im Highlighter. Ich glaube das ist ein grundlegender Fehler im Design? Hier müsste man ggf. dafür sorgen das der Highlighter wenn es beim parsen zu einem Fehler kommt der dies intern ohne Exception verarbeitet (quasi schluckt...) Denn es macht zumindest für mich keinen Sinn, dass der Parser Exceptions schmeisst, weil man den falschen Highlighter benutzt oder der Code nicht dem Highlighter entspricht? Nur so ein Gedanke, aber Sublime ist das auch egal, wenn der Code nicht einem Highlighter entspricht wird der Text ungeparsed ohne Highlighting dargestellt.
 
 
 * **Zeilennummern**
