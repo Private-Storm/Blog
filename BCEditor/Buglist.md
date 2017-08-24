@@ -29,6 +29,9 @@ Ich weiß jetzt nicht ob dies nur die Schriftart und Schriftgröße betrifft, da
 
 Funktioniert nicht richtig, man kann seinen Code maximal 1x ein und wieder ausklappen, danach hat ein weiterer Klick keine Bedeutung mehr, der Code wird danach nicht mehr ein oder ausgeklappt. Ich hatte auch schon das Phänomen, dass der Code eingeklappt war und sich nicht wieder ausklappen lies.
 
+Was noch wesentlich dramatischer ist, wenn man eine Datei in den Editor lädt, passiert folgendes: Der Editor zeigt eine gewisse Anzahl von Zeilen an, beim scrollen würde man erwarten, dass der Rest der Datei angezeigt wird, dies ist nicht der Fall, die weiteren Zeilen werden nicht angezeigt (das heisst, so ist es nicht ganz richtig, nur über Umwege) wenn man die restlichen Zeilen angezeigt bekommen möchte, muss man einmalig den Code per Codeholding zusammen und wieder aufklappen, erst dann tauchen die Zeilen (auch beim Scrollen) auf vorher nicht! Dabei verschwindet aber die allererste Zeile im Editor. Mir ist es nur einmalig per Zufall gelungen die Zeile wieder zum Vorschein zu bringen.
+
+
 * **CompletionProposal**
 
 Bei mir gibt es weiter den Bug, bei **"STRG+Space"** resultiert in:
@@ -97,6 +100,8 @@ ist alles gut, aber sobald man zwischen die zwei geschweiften Klammern den Curso
 > Ich würde mir die ganze Text laden editieren und löschen Geschichte nochmal genau ansehen, hier scheint es einen Haufen an Fehlern zu geben.
 
 </br>
+
+Meine Hauptvermutung ist, dass es am Highlighter liegt, bzw. dem passen des Textes. Denn wenn es knall dann hauptsächlich im Highlighter. Ich glaube das ist ein grundlegender Fehler im Design? Hier müsste man ggf. dafür sorgen das der Highlighter wenn es beim parken zu einem Fehler kommt der dies intern ohne Exception verarbeitet (quasi schluckt...) Denn es macht zumindest für mich keinen Sinn, dass der Parser Exceptions schmeisst, weil man den falschen Highlighter benutzt oder der Code nicht dem Highlighter entspricht? Nur so ein Gedanke, aber Sublime ist das auch egal, wenn der Code nicht einem Highlighter entspricht wird der Text ungerades ohne Highlighting dargestellt.
 
 
 * **Zeilennummern**
