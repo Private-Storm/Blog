@@ -57,6 +57,13 @@ Gut soweit kein Problem, hatte ich nur so nicht erwartet (ich dachte durch das e
 Wenn man aber nun abschließend das END schreiben will erscheint der Cursor an der falschen Position, sprich er liegt zwischen N und D und nicht am Ende des Wortes End.
 Nach dem abschließendem Return, wird es wieder korrekt angezeigt.
 
-* **Color.json**
+* **Fragen**
 
 Ich hab das jetzt auf die schnelle nicht finden können, aber wo setzt man denn für das CompletionProposal, die Schriftfarbe? Größe und Art ist ja vorhanden.
+
+Encoding, dass ist mir gerade etwas unklar aber ich wollte das Encoding auslesen einer Datei im Editor also per:
+
+     Editor.Lines.Encoding.EncodingName;
+     
+     
+Mich wundert gerade das mir immer ANSI angezeigt wird, egal ob die Datei UTF8 kodiert gespeichert wurde, mit BOM ohne BOM die Anzeige ist immer ANSI.   
