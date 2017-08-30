@@ -48,11 +48,11 @@ Das ist etwas seltsam, man geht z.B. zum Ende einer Unit scrollt dann langsam na
 
 Wenn man ein Datei editiert, in meinem Fall eine .Pas Datei, und man dabei das CompletionProposal nutzt, dann treten folgende Dinge auf:
 
-Man macht schreibt p Ctrl+Space wählt procedure aus anzeigt wird:
+Man schreibt p Ctrl+Space wählt procedure aus, anzeigt wird jetzt:
 
  pprocedure
  
-Gut soweit kein Problem, hatte ich nur so nicht erwartet (ich dachte durch das erste P springt das CompletionProposal quasi nach P wo Procedure zu finden wäre.) 
+Gut soweit kein Problem, hatte ich nur so nicht erwartet (ich dachte durch das erste P und dankt CTRL+Space springt das CompletionProposal quasi nach P wo Procedure zu finden wäre.) 
 
 Wenn man aber nun abschließend das END schreiben will erscheint der Cursor an der falschen Position, sprich er liegt zwischen N und D und nicht am Ende des Wortes End.
 Nach dem abschließendem Return, wird es wieder korrekt angezeigt.
