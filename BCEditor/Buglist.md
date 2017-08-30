@@ -29,3 +29,7 @@ Markiert man eine Zeile komplett und will diese danach löschen, kommt es zu ein
 Das ist etwas seltsam, man geht z.B. zum Ende einer Unit scrollt dann langsam nach oben, die Begin und Endblöcke werden hervorgehoben allerdings nicht nur die Zeile in der man steht sondern auch die Zeilen vorher siehe Screenshot.
 
 ![Tags](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Tags.PNG)
+
+* **Color.json**
+
+Ich hab das jetzt auf die schnelle nicht finden können, aber wo setzt man denn für das CompletionProposal, die Schriftfarbe? Größe und Art ist ja vorhanden.
