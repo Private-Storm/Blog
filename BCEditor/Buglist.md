@@ -2,7 +2,7 @@
 
 Was ich auf die schnelle bisher gefunden habe:
 
-* **Editor Fentster**
+* **Editor Fenster**
 
 Hier gibt es einen kleinen Bug beim zeichnen, wenn man das Application Fenster maximiert, bleibt ein kleiner grauer Block im Editorfenster zurück. Dieser verschwindet wenn man mit dem Cursor durch die Zeilen wandert.
       
@@ -14,7 +14,7 @@ Ich habe mir das nochmal angesehen, der Fehler tritt ebenfalls auf wenn VisualSt
 
 ![VisualStyles](https://github.com/Private-Storm/Blog/blob/master/BCEditor/VisualStyles.PNG)
 
-Hier nochmal in groß mit aktivem Style:
+Hier nochmal in groß mit aktivem Style, im Editor wo sieht horizontale und vertikale Scrollbar treffen, kannst Du das graue Quadrat erkennen, ist der Style nicht aktiv, verschiebt sich das graue Quadrat teilweise auf den Editor selber wie im ersten Screenshot sichtbar, wenn man sein Fenster maximiert, es wandert quasi:
 
 ![ScrollbarBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Unbenannt.PNG)
 
