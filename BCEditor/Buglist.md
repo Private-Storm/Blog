@@ -14,7 +14,7 @@ Ich habe mir das nochmal angesehen, der Fehler tritt ebenfalls auf wenn VisualSt
 
 ![VisualStyles](https://github.com/Private-Storm/Blog/blob/master/BCEditor/VisualStyles.PNG)
 
-Hier nochmal in groß mit aktivem Style, im Editor wo sieht horizontale und vertikale Scrollbar treffen, kannst Du das graue Quadrat erkennen, ist der Style nicht aktiv, verschiebt sich das graue Quadrat teilweise auf den Editor selber wie im ersten Screenshot sichtbar, wenn man sein Fenster maximiert, es wandert quasi:
+Hier nochmal in groß mit aktivem Style, im Editor wo sich horizontale und vertikale Scrollbar treffen, kannst Du das graue Quadrat erkennen, ist der Style nicht aktiv, verschiebt sich das graue Quadrat teilweise auf den Editor selber wie im ersten Screenshot sichtbar, wenn man sein Fenster maximiert, es wandert quasi:
 
 ![ScrollbarBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Unbenannt.PNG)
 
