@@ -8,24 +8,24 @@ Hier gibt es einen kleinen Bug beim zeichnen, wenn man das Application Fenster m
       
 
 
-![PaintBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/PaintBug)
+![PaintBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/PaintBug.PNG)
 
 
 * **Font Change**
 
 Ändere ich in der Color.json den Font von z.B. von Courier New auf Inconsolata, wird der letzte Buchstabe pro Wort abgeschnitten, kann man deutlich z.B. in der Uses Liste sehen.
 
-![FontChange](https://github.com/Private-Storm/Blog/blob/master/FontChange.PNG)
+![FontChange](https://github.com/Private-Storm/Blog/blob/master/BCEditor/FontChange.PNG)
 
 * **Löschen einer Zeile**
 
 Markiert man eine Zeile komplett und will diese danach löschen, kommt es zu einer Exception.
 
-![Löschen](https://github.com/Private-Storm/Blog/blob/master/Loeschen.PNG)
+![Löschen](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Loeschen.PNG)
 
 
 * **Highlighting von Begin / End Blöcke**
 
 Das ist etwas seltsam, man geht z.B. zum Ende einer Unit scrollt dann langsam nach oben, die Begin und Endblöcke werden hervorgehoben allerdings nicht nur die Zeile in der man steht sondern auch die Zeilen vorher siehe Screenshot.
 
-![Tags](https://github.com/Private-Storm/Blog/blob/master/Tags.PNG)
+![Tags](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Tags.PNG)
