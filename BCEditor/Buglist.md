@@ -10,7 +10,9 @@ Hier gibt es einen kleinen Bug beim zeichnen, wenn man das Application Fenster m
 
 ![PaintBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/PaintBug.PNG)
 
-Ich habe mir das nochmal angesehen, der Fehler tritt ebenfalls auf wenn VisualStyles aktiv sind, hauptsächlich, wenn der Editor die Horizontale Scrollbar zeichnen muss, siehe Screenshot 2
+Ich habe mir das nochmal angesehen, der Fehler tritt ebenfalls auf wenn VisualStyles aktiv sind, hauptsächlich, wenn der Editor die Horizontale Scrollbar zeichnen muss, siehe Screenshot 2, nicht falsch verstehen, den Fehler gibt es auch ohne VisualStyles!
+
+![VisualStyles](https://github.com/Private-Storm/Blog/blob/master/BCEditor/VisualStyles.PNG)
 
 
 * **Font Change**
