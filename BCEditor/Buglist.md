@@ -15,6 +15,12 @@ Hier gibt es einen kleinen Bug beim zeichnen, wenn man das Application Fenster m
 
 Ändere ich in der Color.json den Font von z.B. von Courier New auf Inconsolata, wird der letzte Buchstabe pro Wort abgeschnitten, kann man deutlich z.B. in der Uses Liste sehen.
 
+Was der Editor gar nicht mag, ist folgendes:
+dynamisches Wechseln der Color.json zur Laufzeit. Es funktioniert, wenn der Editor nicht den Fokus hat ohne Probleme. Setzt man aber wie in meinem Fall den Focus in den Editor und steht z.B. in Zeile 16 und man wechselt jetzt z.B. von Monokai auf Default, knallt es mit der Meldung:
+
+Line 15 not visible.
+
+
 ![FontChange](https://github.com/Private-Storm/Blog/blob/master/BCEditor/FontChange.PNG)
 
 * **Löschen einer Zeile**
