@@ -14,6 +14,10 @@ Ich habe mir das nochmal angesehen, der Fehler tritt ebenfalls auf wenn VisualSt
 
 ![VisualStyles](https://github.com/Private-Storm/Blog/blob/master/BCEditor/VisualStyles.PNG)
 
+Hier nochmal in groß mit aktivem Style:
+
+![ScrollbarBug](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Unbenannt.PNG)
+
 
 * **Font Change**
 
