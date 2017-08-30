@@ -40,6 +40,19 @@ Das ist etwas seltsam, man geht z.B. zum Ende einer Unit scrollt dann langsam na
 
 ![Tags](https://github.com/Private-Storm/Blog/blob/master/BCEditor/Tags.PNG)
 
+* **Editieren**
+
+Wenn man ein Datei editiert, in meinem Fall eine .Pas Datei, und man dabei das CompletionProposal nutzt, dann treten folgende Dinge auf:
+
+Man macht schreibt p Ctrl+Space wählt procedure aus anzeigt wird:
+
+ pprocedure
+ 
+Gut soweit kein Problem, hatte ich nur so nicht erwartet (ich dachte durch das erste P springt das CompletionProposal quasi nach P wo Procedure zu finden wäre.) 
+
+Wenn man aber nun abschließend das END schreiben will erscheint der Cursor an der falschen Position, sprich er liegt zwischen N und D und nicht am Ende des Wortes End.
+Nach dem abschließendem Return, wird es wieder korrekt angezeigt.
+
 * **Color.json**
 
 Ich hab das jetzt auf die schnelle nicht finden können, aber wo setzt man denn für das CompletionProposal, die Schriftfarbe? Größe und Art ist ja vorhanden.
