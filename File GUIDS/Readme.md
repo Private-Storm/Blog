@@ -18,8 +18,8 @@ Cut out the Test.exe and move it to this path:
 
 * Time for pressing the "Open file by Guid" button.
 
-If everything works correctly a line will be added to the memo (magically since you move the executeable from the original location but its still found!)
+If everything works correctly a line will be added to the memo (magically since you moved the executeable from the original location but its still found!)
 
 <h3>Attention</h3>
 
-> The only exception I've found is that you can't move the file to another partition, that will not work.
+> The only exception I've found is that you can't move the file to another partition, that will not work. Which is correctly the function needs a start partition to be set.
