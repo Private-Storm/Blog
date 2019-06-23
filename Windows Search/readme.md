@@ -2,7 +2,7 @@
 
 Out of curiosity I gave the Windows Search a try and made a small implementation for Delphi. Well it never reached a stage where I could say it is nearly complete. It was / is still a starting point not more, at least it worked for me. 
 
-![Windows Search in action](https://github.com/Private-Storm/Blog/tree/master/Windows%20Search/Capture.png)
+![Windows Search in action](Capture.png)
 
 Well, to give you an idea how this works, have a look below.
 
