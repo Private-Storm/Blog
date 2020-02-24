@@ -1,0 +1,19 @@
+program pkverifier;
+
+uses
+  Vcl.Forms,
+  storm.pkverifier.main in 'storm.pkverifier.main.pas' {MainForm},
+  storm.pkverifier.thrd in 'storm.pkverifier.thrd.pas',
+  Vcl.Themes,
+  Vcl.Styles;
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Amakrits');
+  Application.CreateForm(TMainForm, MainForm);
+  ReportMemoryLeaksOnShutdown := true;
+  Application.Run;
+end.
