@@ -17,7 +17,7 @@ The Demo uses two different ways to validate your key.
 
 The first one (while beeing in the Auto interface) it will try to fetch all needed information on its own and validates a key when found.
 
-The second one (manual interface) will work with the data provided be the user.
+The second one (manual interface) will work with the data provided by the user.
 
 **Auto Interface**
 ![Auto Interface](1_main_dark.png "Auto Interface")
